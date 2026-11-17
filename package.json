@@ -1,0 +1,17 @@
+{
+  "name": "kubernetes-admission-policy-analyzer",
+  "version": "1.0.0",
+  "description": "Simulate ordered Kubernetes admission policies (deny, mutate, namespace exemptions) against Pod/Deployment objects.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
